@@ -1,4 +1,6 @@
-(defproject app "1.0.0-SNAPSHOT"
-  :description "FIXME: write description"
-  :dependencies [[org.clojure/clojure "1.3.0"]
-    [ring "1.4.0"]])
+(defproject server "1.0.0-SNAPSHOT"
+  :description "Server using Clojure and Ring"
+  :dependencies [[org.clojure/clojure "1.5.1"]
+    [ring "1.4.0"]
+    [compojure "1.0.1"]]
+    :main app.core)
